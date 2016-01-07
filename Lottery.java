@@ -2,9 +2,9 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Calculator {
+public class LotterySet {
   public static void main (String[] args) throws java.lang.Exception {
-    Calculator c = new Calculator();
+    LotterySet c = new LotterySet();
     c.playLottery();
   }
 
@@ -49,28 +49,4 @@ public class Calculator {
     //
   }
 
-
-  // public static void main (String[] args) throws java.lang.Exception {
-  //   Calculator c = new Calculator();
-  //   System.out.println(c.add("5+5"));
-  //   System.out.println(c.subtract("5-5"));
-  // }
-  // public int add(String expression) {
-  //   int sum = 0;
-  //   for (String summand: expression.split("\\+"))
-  //     sum += Integer.valueOf(summand);
-  //   return sum;
-  // }
-  //
-  // public int subtract(String expression) {
-  //   int difference = 0;
-  //   for (String diffand: expression.split("\\-")) {
-  //     if (difference == 0) {
-  //       difference = Integer.valueOf(diffand);
-  //     } else {
-  //       difference -= Integer.valueOf(diffand);
-  //     }
-  //   }
-  //   return difference;
-  // }
 }
