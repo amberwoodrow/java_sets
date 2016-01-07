@@ -1,6 +1,6 @@
 run:
-	javac Lottery.java && \
-	java Lottery
+	javac LotterySet.java && \
+	java LotterySet
 
 test:
 	javac -cp .:junit.jar LotteryTest.java && \
