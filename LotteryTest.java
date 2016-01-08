@@ -9,8 +9,6 @@ public class LotteryTest {
     LotterySet lotterySet = new LotterySet();
     HashSet<Integer> numbers = lotterySet.createLotteryNumbers(6);
     assertEquals(6, numbers.size());
-    HashSet<Integer> numberstwo = lotterySet.createLotteryNumbers(5);
-    assertEquals(5, numberstwo.size());
   }
 
   @Test
